@@ -1,3 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
-$base-font: 'Montserrat', sans-serif;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: $black;
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.text-highlight {
+  font-weight: 700;
+  color: $pink;
+}
+
+.benefits {
+  font-weight: 400;
+  color: $gray;
+}
+
+.instructions {
+  font-size: 160px;
+  font-weight: 700;
+  color: $light-pink;
+}
