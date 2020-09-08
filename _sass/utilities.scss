@@ -1,4 +1,23 @@
+html { scroll-behavior: smooth; }
+
+body {
+  background: $background-gray;
+}
+
 .container {
-  width: 90vw;
-  margin: 0 auto;
+  height: inherit;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+}
+
+#link {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;;
+  color: $pink;
 }

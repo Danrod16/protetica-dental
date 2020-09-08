@@ -1,16 +1,11 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: $background-gray;
+  padding: 15px 0;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
+.navbar-lewagon .navbar-collapse { flex-grow: 0; }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
+.navbar-lewagon .navbar-brand img { width: 250px; }
 
-.navbar-light .navbar-nav .nav-link {
-  color: $pink;
-}
+.navbar-light .navbar-nav .nav-link { color: $pink; }

@@ -1,0 +1,17 @@
+footer {
+  height: 15vh;
+  background: $background-gray;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  
+  p {
+    font-size: 14px;
+    margin: 0;
+  }
+}

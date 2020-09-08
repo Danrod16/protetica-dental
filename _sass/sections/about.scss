@@ -1,0 +1,22 @@
+.about {
+  height: 70vh;
+  background: white;
+}
+
+.about-content { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.about-text {
+  text-align: center;
+
+  h2 { margin-bottom: 30px; }
+
+  h3 { 
+    font-size: 60px; 
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,27 @@
+.one-click {
+  height: 100vh;
+  background: white;
+}
+
+.one-click-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  align-items: flex-start;
+}
+
+.one-click-buttons {
+  text-align: end;
+}
+
+.one-click-text-lg {
+  
+  p { 
+    font-size: 75px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 90px;
+    letter-spacing: -2px;
+    color: $light-pink;
+  }
+}
