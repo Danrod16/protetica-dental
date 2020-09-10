@@ -1,23 +1,27 @@
 html { scroll-behavior: smooth; }
 
-body {
-  background: $background-gray;
-}
+body { background: $background-gray; }
 
-.container {
-  height: inherit;
-}
+section { min-height: 70vh; }
+
+.container { min-height: inherit; }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: inherit;
+  min-height: inherit;
+  padding: 50px 0;
 }
 
-#link {
+
+.link {
   font-size: 18px;
   font-weight: 400;
   text-decoration: underline;;
   color: $pink;
+}
+
+@media (max-width: 1312px) {
+  section { min-height: 50vh; }
 }

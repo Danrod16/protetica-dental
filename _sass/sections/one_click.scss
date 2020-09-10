@@ -1,7 +1,4 @@
-.one-click {
-  height: 100vh;
-  background: white;
-}
+.one-click { background: white; }
 
 .one-click-grid {
   display: grid;
@@ -10,12 +7,32 @@
   align-items: flex-start;
 }
 
-.one-click-buttons {
-  text-align: end;
+.one-click-content { text-align: center; }
+
+.one-click-title { 
+  text-transform: uppercase; 
+  margin-bottom: 40px;
 }
 
+.one-click-price {
+  margin-top: 40px;
+  p {
+    font-size: 22px;
+    margin: 0;
+  }
+}
+
+.one-click-img  { 
+  width: 100%;
+  margin: 50px 0 100px 0;
+  img {
+    width: auto;
+  }
+}
+
+.one-click-buttons { text-align: end; }
+
 .one-click-text-lg {
-  
   p { 
     font-size: 75px;
     font-weight: 700;
@@ -24,4 +41,51 @@
     letter-spacing: -2px;
     color: $light-pink;
   }
+}
+
+@media (max-width: 1312px) {
+
+  input { width: 70%; }
+}
+
+@media (max-width: 992px) {
+  .one-click-text-lg {
+    p { font-size: 55px; }
+  }
+
+  .one-click-buttons { text-align: start; }
+
+  input { width: 70%; }
+
+  button { 
+    width: fit-content; 
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 688px) {
+  .one-click-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .one-click-text-lg {
+    p { font-size: 50px; }
+  }
+
+  .one-click-img  { 
+    img { width: 100%; }
+  }
+
+.one-click-buttons { 
+  display: flex; 
+  flex-direction: column;
+ 
+  input { width: 70%; }
+
+  button { 
+    width: fit-content; 
+    margin-top: 15px;
+  }
+}
+
 }

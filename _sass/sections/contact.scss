@@ -1,7 +1,4 @@
-.contact {
-  height: 70vh;
-  background: white;
-}
+.contact { background: white; }
 
 .contact-grid {
   display: grid;
@@ -17,4 +14,20 @@
   align-items: center;
 }
 
+.contact-details {
+  p {
+    margin-bottom: 10px;
+  }
+}
+
 #contact-number { letter-spacing: 1px; }
+
+@media (max-width: 688px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info {
+    margin-top: 30px;
+  }
+}

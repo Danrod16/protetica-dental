@@ -1,7 +1,4 @@
-.value {
-  height: 190vh;
-  background: $background-gray;
-}
+.value { background: $background-gray; }
 
 .value-grid {
   display: grid;
@@ -23,37 +20,21 @@
   }
 }
 
-// Smallest device
-@media (min-width: 100px) and (max-width: 575px) { 
-  .value-content {
+@media (max-width: 688px) { 
+  .value-grid {
     grid-template-columns: 1fr;
   }
-}
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .value-content {
-    grid-template-columns: 1fr;
-  }
-}
+  #tech-photo { order: 1; }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .value-content {
-    grid-template-columns: 1fr 1fr;
-  }
-}
+  #tech { order: 2; }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .value-content {
-    grid-template-columns: 1fr 1fr;
-  }
-}
+  #price-photo { order: 3; }
+  
+  #price { order: 4; }
+  
+  #costumer-photo { order: 5; }
+  
+  #costumer { order: 6; }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .value-content {
-    grid-template-columns: 1fr 1fr;
-  }
 }

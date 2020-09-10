@@ -1,7 +1,10 @@
+.navbar {
+  padding: 15px 0 0 0;
+}
+
 .navbar-lewagon {
   justify-content: space-between;
   background: $background-gray;
-  padding: 15px 0;
 }
 
 .navbar-lewagon .navbar-collapse { flex-grow: 0; }
@@ -9,3 +12,9 @@
 .navbar-lewagon .navbar-brand img { width: 250px; }
 
 .navbar-light .navbar-nav .nav-link { color: $pink; }
+
+@media (max-width: 688px) {
+  .navbar { padding: 15px 15px 0 15px; }
+
+  .navbar-lewagon .navbar-brand img { width: 200px; }
+}

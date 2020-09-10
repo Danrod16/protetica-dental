@@ -1,5 +1,4 @@
 .orders {
-  height: 80vh;
   background: $background-gray;
 
   h2 {
@@ -27,5 +26,22 @@
     position: absolute;
     top: 145px;
     left: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .orders {
+    h2 { width: 45%; }
+  }
+}
+
+@media (max-width: 688px) {
+  .orders-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+
+  .orders {
+    h2 { width: 70%; }
   }
 }
