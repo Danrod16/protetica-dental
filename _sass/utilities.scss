@@ -20,6 +20,10 @@ section { min-height: 70vh; }
   font-weight: 400;
   text-decoration: underline;;
   color: $pink;
+
+  &:hover {
+    color: $black;
+  }
 }
 
 @media (max-width: 1312px) {
