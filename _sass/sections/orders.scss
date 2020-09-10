@@ -29,6 +29,10 @@
   }
 }
 
+#download {
+  width: fit-content;
+}
+
 @media (max-width: 992px) {
   .orders {
     h2 { width: 45%; }
